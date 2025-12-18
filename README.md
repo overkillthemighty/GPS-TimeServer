@@ -1,5 +1,7 @@
 # ESP32 PPS Time Server
 
+![Assembled](Front.jpg)
+
 I started this project when I was having trouble finding an ESP32-based PPS (Pulse Per Second) time server that compiled on a recent version of Arduino and had the features I wanted. This project provides a reliable, high-accuracy NTP server solution using an ESP32 with Ethernet support and Power over Ethernet (PoE).
 
 ## 🚀 Overview
