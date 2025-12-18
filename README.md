@@ -42,3 +42,5 @@ The project is designed for the **Waveshare ESP32-S3-ETH**, but it should be eas
     * Select **ESP32-S3 Dev Module** (or the specific Waveshare board profile if installed).
 3.  **Flash:** Upload the code to the board via USB-C.
 4.  **Enclosure:** Print the provided `.stl` files. The board is designed to snap into the case, secured by the LockBlock.
+
+Note that I used Gemini quite a bit creating this. 
