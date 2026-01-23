@@ -22,9 +22,9 @@ The project is designed for the **Waveshare ESP32-S3-ETH**, but it should be eas
 | :--- | :--- | :--- |
 | **VCC** | 3.3V or 5V | Power supply for GPS |
 | **GND** | GND | Ground |
-| **TX** | GPIO 5 (RX) | GPS Data Transmission |
-| **RX** | GPIO 4 (TX) | GPS Data Reception |
-| **PPS** | GPIO 1 | Pulse Per Second (High Precision) |
+| **TX** | GPIO 18 (RX) | GPS Data Transmission |
+| **RX** | GPIO 17 (TX) | GPS Data Reception |
+| **PPS** | GPIO 2 | Pulse Per Second (High Precision) |
 
 *Please verify these GPIO assignments in `ESP32TimeServer/ESP32TimeServer.ino` before powering on.*
 
