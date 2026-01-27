@@ -1,4 +1,5 @@
 /*
+Version 1.1
   ESP32TimeServer.ino
   MIT License — 2025
 
@@ -470,4 +471,5 @@ void loop() {
   processNTPRequests();
   processWebLoop();
   processSerialMenu();
+
 }
