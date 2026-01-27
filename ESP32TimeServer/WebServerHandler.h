@@ -1,5 +1,7 @@
 #pragma once
 
+// Version 1.1
+
 #include <WebServer.h>
 #include <Update.h>
 #include <Preferences.h>
@@ -290,4 +292,5 @@ void startWeb() {
 
 void processWebLoop() {
   if (webEnabled) server.handleClient();
+
 }
