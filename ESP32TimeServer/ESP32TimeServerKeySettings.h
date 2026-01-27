@@ -5,7 +5,7 @@
 // Project key settings (pins, speeds, toggles). Keep this file device-specific.
 
 // versioning
-const char* FIRMWARE_VERSION = "0.5";
+const char* FIRMWARE_VERSION = "0.6";
 
 // ---------- Serial / Debug ----------
 const int  SerialMonitorSpeed = 115200;
@@ -50,4 +50,5 @@ const long RTCLatencyCorrectionMs = 0;
 const uint16_t WEB_PORT               = 80;
 const size_t   LOG_RING_CAPACITY      = 200;     // last N log entries served via web
 const bool     webEnabled             = true;    // can disable if you want ultra-lean
+
 const bool     otaEnabled             = true;    // HTTP upload firmware via /update
